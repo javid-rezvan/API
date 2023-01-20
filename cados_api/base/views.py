@@ -17,7 +17,7 @@ def endpoins(request):
     return Response(data)
 
 @api_view(['GET','POST'])
-@permission_classes([IsAuthenticated])
+# @permission_classes([IsAuthenticated])
 def advocate_list(request):
     
     #Handles Get request
